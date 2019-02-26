@@ -1,0 +1,29 @@
+{
+  "name": "ddup/model",
+  "description": "模型",
+  "type": "library",
+  "keywords": [
+    "ddup",
+    "model"
+  ],
+  "require": {
+    "illuminate/support": "*",
+    "illuminate/database": "*",
+    "ddup/part": "^1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ddup\\Model\\": "src",
+      "Ddup\\Model\\Test\\": "test"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "authors": [
+    {
+      "name": "xingbo.li",
+      "email": "1711293058@qq.com"
+    }
+  ]
+}
